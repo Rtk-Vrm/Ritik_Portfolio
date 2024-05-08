@@ -126,6 +126,8 @@ const ContactButton = styled.input`
   font-weight: 600;
 `;
 
+
+
 const Contact = () => {
   const form = useRef();
 //#WORKNEEDED
@@ -150,7 +152,7 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="Contact">
       <Wrapper>
         <EarthCanvas />
         <Title>Contact</Title>

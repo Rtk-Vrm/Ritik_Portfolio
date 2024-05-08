@@ -138,6 +138,54 @@ const ResumeButton = styled.a`
 
   width: 95%;
   max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+  padding: 16px 0;
+
+  background: hsla(271, 100%, 50%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 20px;
+
+     &:hover {
+        transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    }    
+    
+    
+    @media (max-width: 640px) {
+        padding: 12px 0;
+        font-size: 18px;
+    } 
+    color: white;
+`;
+const GitButton = styled.a`
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+
+  width: 95%;
+  max-width: 300px;
+  min-width: 200px;
   text-align: center;
   padding: 16px 0;
 
@@ -177,6 +225,7 @@ const ResumeButton = styled.a`
     color: white;
 `;
 
+
 const Img = styled.img`
   border-radius: 50%;
   width: 100%;
@@ -215,6 +264,8 @@ const HeroBg = styled.div`
   }
 `;
 
+
+
 const Hero = () => {
   return (
     <div id="About">
@@ -249,9 +300,17 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
-              </ResumeButton>
+              <div style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+              
+                <ResumeButton href={Bio.resume} target="_blank" style={{  whiteSpace: 'nowrap' }}>
+                  Check Resume
+                </ResumeButton>
+              
+                <GitButton href={Bio.github} target="_blank" style={{ marginLeft: '15px' }}>
+                  Check Github
+                </GitButton>
+                
+              </div>
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>

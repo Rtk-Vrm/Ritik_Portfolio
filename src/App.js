@@ -7,6 +7,7 @@ import Skills from "./components/sections/Skills";
 import StarCanvas from "./components/canvas/Stars";
 import { AnimatePresence } from "framer-motion";
 import Education from "./components/sections/Education";
+import Certificates from "./components/sections/Certificates";
 import Experience from "./components/sections/Experience";
 import Projects from "./components/sections/Projects";
 import Contact from "./components/sections/Contact";
@@ -55,10 +56,12 @@ function App() {
               <Projects openModal={openModal} setOpenModal={setOpenModal} />
               <Wrapper>
                 <Education />
+              </Wrapper>
+              <Certificates/>
+              <Wrapper>
                 <Contact />
               </Wrapper>
               <Footer />
-
               {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}

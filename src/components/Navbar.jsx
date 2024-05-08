@@ -170,6 +170,8 @@ const Navbar = () => {
           <NavLink onClick={() => handleNavLinkClick("Experience")}>Experience</NavLink>
           <NavLink onClick={() => handleNavLinkClick("Projects")}>Projects</NavLink>
           <NavLink onClick={() => handleNavLinkClick("Education")}>Education</NavLink>
+          <NavLink onClick={() => handleNavLinkClick("Certificates")}>Certificates</NavLink>
+          <NavLink onClick={() => handleNavLinkClick("Contact")}>Contact</NavLink>
           
         </NavItems>
 
@@ -180,6 +182,8 @@ const Navbar = () => {
             <NavLink onClick={() => handleNavLinkClick("Experience")}>Experience</NavLink>
             <NavLink onClick={() => handleNavLinkClick("Projects")}>Projects</NavLink>
             <NavLink onClick={() => handleNavLinkClick("Education")}>Education</NavLink>
+            <NavLink onClick={() => handleNavLinkClick("Certificates")}>Certificates</NavLink>
+            <NavLink onClick={() => handleNavLinkClick("Contact")}>Contact</NavLink>
             
             <GithubButton
               href={Bio.github}
