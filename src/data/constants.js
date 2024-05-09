@@ -301,7 +301,7 @@ export const education = [
     img: "https://www.glbitm.org/Uploads/image/846imguf_LogoGLBajaj.jpg",
     school: "G.L Bajaj Institiute Of Technology and Management",
     date: "Aug 2018 - Jun 2022",
-    grade: "8.0",
+    grade: " A",
     desc: "My majors are Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the AI/ML Research Wing at GL Bajaj, where I am learning and working on exciting projects with a team of talented developers and professors.",
     degree: "Bachelor of Technology - IT",
   },
