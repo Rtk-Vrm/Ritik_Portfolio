@@ -138,7 +138,7 @@ const ResumeButton = styled.a`
 
   width: 95%;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 160px;
   text-align: center;
   padding: 16px 0;
 
@@ -185,7 +185,7 @@ const GitButton = styled.a`
 
   width: 95%;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 160px;
   text-align: center;
   padding: 16px 0;
 

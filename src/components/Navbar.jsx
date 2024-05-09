@@ -48,11 +48,11 @@ const NavItems = styled.ul`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 32px;
+  gap: 26px;
   padding: 0 6px;
   list-style: none;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -75,7 +75,7 @@ const ButtonContainer = styled.div`
   justify-content: end;
   align-items: center;
   padding: 0 6px;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: none;
   }
 `;
@@ -105,7 +105,7 @@ const MobileIcon = styled.div`
   align-items: center;
   color: ${({ theme }) => theme.text_primary};
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1000px) {
     display: block;
   }
 `;
@@ -118,12 +118,14 @@ const MobileMenu = styled.ul`
   gap: 16px;
   padding: 0 6px;
   list-style: none;
-  width: 100%;
+  width: 80%;
   padding: 12px 40px 24px 40px;
   background: ${({ theme }) => theme.card_light + 99};
   position: absolute;
   top: 80px;
   right: 0;
+  left: ;
+  
 
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) =>
