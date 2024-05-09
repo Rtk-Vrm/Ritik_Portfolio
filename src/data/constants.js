@@ -387,7 +387,7 @@ export const certificates = [
   },
   {
     id: 1,
-    title:"Microsoft Azure AI Fundamental",
+    title:"Microsoft Azure AI-Fundamentals",
     image:"https://res.cloudinary.com/dmo0fcai1/image/upload/v1715172038/Certificates/Microsoft_Azure-1_plewvj.png",
     link: "https://drive.google.com/file/d/1ZFGuBvyJ5iYzQ4B-ko3ii138bxsfOTQh/view?usp=drive_link",
   },
@@ -411,19 +411,19 @@ export const certificates = [
   },
   {
     id: 5,
-    title: "ISRO - AI Earth Mapping",
+    title: "ISRO - AI Earth Mappin and Flood Imagining",
     image:"https://res.cloudinary.com/dmo0fcai1/image/upload/v1715172035/Certificates/ISRO_1-1_mmjoil.png",
     link: "https://drive.google.com/file/d/1lSQerQQ7Nk7WDicmdbncpivWt7TI_xty/view?usp=drive_link",
   },
   {
     id: 6,
-    title: "Accenture AI Architect",
+    title: "Accenture AI-Architect",
     image:"https://res.cloudinary.com/dmo0fcai1/image/upload/v1715174828/Certificates/pv41c3fcwqporf64hh4n.png",
     link: "https://drive.google.com/file/d/1hwOHHTDWWjduXLWtdH849gLYrZ8m8VSD/view?usp=drive_link",
   },
   {
     id: 7,
-    title: "Cisco Academy PCAP:Python Programming",
+    title: "Cisco Academy  PCAP: Python Programming",
     image:"https://res.cloudinary.com/dmo0fcai1/image/upload/v1715172022/Certificates/cisco_Certificate-1_vsrr47.png",
     link: "https://drive.google.com/file/d/1-5zlkEexGYhvsCe0lWPK7fRwX-rW4zxf/view?usp=drive_link",
   },

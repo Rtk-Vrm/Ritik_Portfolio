@@ -3,14 +3,17 @@ import styled from "styled-components";
 
 const Card = styled.div`
   position: relative;
-  width: 330px;
-  height: 380px;
+  width: auto;
+  height: auto;
+  max-height: 600px;
+  max-width: 768px;
   background-color: ${({ theme }) => theme.card};
   cursor: pointer;
   border-radius: 10px;
   box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  padding: 26px 20px;
+  padding: 20px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -20,13 +23,17 @@ const Card = styled.div`
     box-shadow: 0 0 50px 4px rgba(0, 0, 0, 0.6);
     filter: brightness(1.1);
   }
+  
 `;
 const Image = styled.img`
-  width: 100%;
-  height: 200px;
+  width: auto;
+  height: auto;
+  max-height: 440px;
   background-color: ${({ theme }) => theme.white};
   border-radius: 10px;
   box-shadow: 0 0 16px 2px rgba(0, 0, 0, 0.3);
+  padding: 26px 14px;
+  
 `;
 
 const Details = styled.div`
@@ -50,39 +57,31 @@ const Title = styled.div`
 `;
 
 
-
-
 const Button = styled.a`
-  width: calc(100% - 32px) ;
+  width: 80% ;
   position: absolute;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); // Adds shadow for depth
   padding: 12px 16px;
   border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  bottom: 30px;
+  left: 50%; // Centers the button
+  transform: translateX(-50%);
   background-color: ${({ theme }) => theme.primary};
   ${({ dull, theme }) =>
-    dull &&
-    `
+    dull &&`
         background-color: ${theme.bgLight};
         color: ${theme.text_secondary};
         &:hover {
             background-color: ${({ theme }) => theme.bg + 99};
         }
     `}
-  cursor: pointer;
-  text-decoration: none;
-  transition: all 0.5s ease;
-  &:hover {
-    background-color: ${({ theme }) => theme.primary + 99};
-  }
-  
-  
-  bottom: 10px; /* Adjust the bottom padding as needed */
-  left: 16px;
-  
-
 `;
 
 
@@ -91,12 +90,10 @@ const CertificateCard = ({ certificate, setOpenModal }) => {
     <Card >
       <Image src={certificate.image} />
       <Details>
-      <Title>{certificate.title}</Title>
+      <Title>{certificate.title}</Title></Details>
       <Button dull href={certificate.link} target="new">
             View Certificate
       </Button>
-      </Details>
-      
     </Card>
   );
 };
