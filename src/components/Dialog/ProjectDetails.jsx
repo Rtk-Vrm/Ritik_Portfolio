@@ -181,6 +181,12 @@ const Button = styled.a`
 `;
 
 const ProjectDetails = ({ openModal, setOpenModal }) => {
+  const handleButtonClick = (e) => {
+    if (!project?.webapp) {
+      e.preventDefault();  // Prevent the link from opening
+      alert('Working on it');  // Show an alert, or handle this case as needed
+    }
+  };
   const project = openModal?.project;
   return (
     <Modal
@@ -238,7 +244,7 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             <Button dull href={project?.github} target="new">
               View Code
             </Button>
-            <Button href={project?.webapp} target="new">
+            <Button href={project?.webapp || '#'} target="new" onClick={handleButtonClick}>
               View Live App
             </Button>
           </ButtonGroup>
