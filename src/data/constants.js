@@ -111,7 +111,7 @@ export const skills = [
       {
         name: "Google Cloud",
         image:
-          "https://static-00.iconduck.com/assets.00/google-cloud-platform-logo-icon-2048x1824-pg4wzspq.png",
+          "https://www.gstatic.com/pantheon/images/welcome/supercloud.svg",
       },
       {
         name: "Docker",
@@ -143,7 +143,7 @@ export const skills = [
       {
         name: "Tenserflow",
         image:
-          "https://static-00.iconduck.com/assets.00/tensorflow-icon-1911x2048-1m2s54vn.png",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg",
       },
       
       {
