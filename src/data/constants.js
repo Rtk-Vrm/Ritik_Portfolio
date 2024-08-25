@@ -228,7 +228,7 @@ export const experiences = [
   },
   {
     id: 4,
-    img: "https://media.licdn.com/dms/image/D560BAQEAsQDabC_liw/company-logo_100_100/0/1712294936206?e=1722470400&v=beta&t=Kp6QhX-TWQiHcJkg1RavrT5eIOKAo5i0JCsSVd8BPTU",
+    img: "https://media.licdn.com/dms/image/v2/D560BAQEAsQDabC_liw/company-logo_200_200/company-logo_200_200/0/1712294936206?e=1732752000&v=beta&t=g-BVN58arVynyckqecsni45dfOdcBdyWM6nKVfS2OG8",
     role: "Full Stack Developer - CoFounder",
     company: "Indian Gems Oasis - Startup",
     date: "Nov 2023 - Apr 2024",
@@ -245,7 +245,7 @@ export const experiences = [
   },
   {
     id: 3,
-    img: "https://media.licdn.com/dms/image/C4D0BAQHiNSL4Or29cg/company-logo_200_200/0/1631311446380?e=1722470400&v=beta&t=a_JdWVCHBpA4QaiKI9rPr43XylFOI6DzpJRLDgh7x4w",
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQHiNSL4Or29cg/company-logo_200_200/company-logo_200_200/0/1631311446380?e=1732752000&v=beta&t=5BMaQ8hJgAHPQ49uwMacyNIEVq3ZIKwFbIEvNC6II3c",
     role: "Google External Workforce",
     company: "Google",
     date: "Oct 2022 - May 2023",
@@ -261,7 +261,7 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://media.licdn.com/dms/image/C560BAQHfsFr91ekzrQ/company-logo_200_200/0/1630647080208/globallogic_logo?e=1722470400&v=beta&t=9hhqIAE6ukxmef0Qww2awETmOp0VhZ9Oar8TOIZrGHk",
+    img: "https://media.licdn.com/dms/image/v2/C560BAQHfsFr91ekzrQ/company-logo_200_200/company-logo_200_200/0/1630647080208/globallogic_logo?e=1732752000&v=beta&t=wSp054w2uw-oPGD-QFvOqbQLiL0blFDihLlCF1mduRA",
     role: "Associate Software Engineer",
     company: "GlobalLogic",
     date: "June 2022 - Oct 2023",
