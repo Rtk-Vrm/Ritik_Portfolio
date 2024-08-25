@@ -209,6 +209,24 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 5,
+    img: "https://media.licdn.com/dms/image/v2/C560BAQE-cwaObx8Iag/company-logo_200_200/company-logo_200_200/0/1630649720006/hashedin_logo?e=1732752000&v=beta&t=JwWV9tfQBu6Osnj_F3l_wGVO-0faHXGDxiVobyhu8fY",
+    role: "Senior Software Developer",
+    company: "HashedIn - Deloitte",
+    date: "Jun 2024 - present",
+    desc: "Working as Senior Software Developer and applicating skills on various projects.",
+    skills: [
+      "Python",
+      "AWS",
+      "FastAPI",
+      "React.Js",
+      "Django",
+      "Selenium",
+      "SQL",
+      "JavaScript",
+    ],
+  },
+  {
     id: 4,
     img: "https://media.licdn.com/dms/image/D560BAQEAsQDabC_liw/company-logo_100_100/0/1712294936206?e=1722470400&v=beta&t=Kp6QhX-TWQiHcJkg1RavrT5eIOKAo5i0JCsSVd8BPTU",
     role: "Full Stack Developer - CoFounder",
